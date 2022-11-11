@@ -1,10 +1,9 @@
-
+import Register from "./Pages/Register";
+import "./styles.scss"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello
-      </header>
+      <Register />
     </div>
   );
 }
